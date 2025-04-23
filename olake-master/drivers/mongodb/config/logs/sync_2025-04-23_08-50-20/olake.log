@@ -1,0 +1,2 @@
+{"level":"info","time":"2025-04-23T08:50:21Z","message":"System has 7GB RAM, setting iceberg writer batch size to 209715200 bytes"}
+{"level":"fatal","time":"2025-04-23T08:50:21Z","message":"C:/Users/deept/Downloads/olake-master/olake-master/drivers/mongodb/config/config.json does not exist: CreateFile C:/Users/deept/Downloads/olake-master/olake-master/drivers/mongodb/config/config.json: The system cannot find the file specified."}

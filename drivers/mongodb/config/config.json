@@ -1,0 +1,14 @@
+{
+    "hosts": ["localhost:27017"],
+    "username": "admin",
+    "password": "password",
+    "authdb": "admin",
+    "replica-set": "rs0",
+    "read-preference": "secondaryPreferred",
+    "srv": false,
+    "server-ram": 16,
+    "database": "reddit",
+    "max_threads": 5,
+    "default_mode": "cdc",
+    "backoff_retry_count": 4
+  }

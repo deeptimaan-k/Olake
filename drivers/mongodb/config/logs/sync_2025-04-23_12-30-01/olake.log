@@ -1,0 +1,8 @@
+{"level":"info","time":"2025-04-23T12:30:04Z","message":"System has 7GB RAM, setting iceberg writer batch size to 209715200 bytes"}
+{"level":"info","time":"2025-04-23T12:30:05Z","message":"Running sync with state: null"}
+{"level":"info","time":"2025-04-23T12:30:14Z","message":"Iceberg JAR file found in target directory: C:\\Users\\deept\\Downloads\\olake-master\\drivers\\mongodb/writers/iceberg/debezium-server-iceberg-sink/target/debezium-server-iceberg-sink-0.0.1-SNAPSHOT.jar"}
+{"level":"info","time":"2025-04-23T12:30:15Z","message":"Connected to new iceberg writer on port 50051 for stream check_01JSHA16HD56CEZCDWJTJKFD5W, configHash check_01JSHA16HD56CEZCDWJTJKFD5W-check-false"}
+{"level":"info","message":"[Java-Iceberg:50051] 18:00:37.582 [main] INFO  io.debezium.server.iceberg.OlakeRpcServer - Logs will be output to console only","time":"2025-04-23T12:30:37Z"}
+{"level":"info","message":"[Java-Iceberg:50051] 18:00:43.777 [main] INFO  org.apache.iceberg.CatalogUtil - Loading custom FileIO implementation: org.apache.iceberg.io.ResolvingFileIO","time":"2025-04-23T12:30:43Z"}
+{"level":"info","time":"2025-04-23T12:30:45Z","message":"Shutting down Iceberg server on port 50051"}
+{"level":"fatal","time":"2025-04-23T12:30:45Z","message":"failed to test destination: error sending record to Iceberg RPC Server: rpc error: code = DeadlineExceeded desc = latest balancer error: connection error: desc = \"transport: Error while dialing: dial tcp [::1]:50051: connectex: No connection could be made because the target machine actively refused it.\""}
